@@ -28,14 +28,29 @@
   <name>Hippo Essentials Sitemap plugin</name>
   <description>Hippo Essentials Sitemap plugin</description>
   <artifactId>hippo-essentials-sitemap-plugin</artifactId>
+  <version>1.01.00-SNAPSHOT</version>
+  <scm>
+    <connection>scm:git:git@github.com:machak/essentials-sitemap-plugin.git</connection>
+    <url>scm:git:git@github.com:machak/essentials-sitemap-plugin.git</url>
+    <developerConnection>scm:git:git@github.com:machak/essentials-sitemap-plugin.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>repo</id>
+      <url>https://github.com/machak/machak-mvn-repo/raw/master/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshot-repo</id>
+      <url>https://github.com/machak/machak-mvn-repo/raw/master/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
   <packaging>jar</packaging>
   <properties>
     <hippo-essentials.version>1.01.03-SNAPSHOT</hippo-essentials.version>
     <junit.version>4.11</junit.version>
     <spring-test.version>3.2.6.RELEASE</spring-test.version>
   </properties>
-
-
   <dependencies>
     <dependency>
       <groupId>org.onehippo.cms7.essentials</groupId>

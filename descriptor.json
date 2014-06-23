@@ -1,0 +1,62 @@
+{"items": [
+    {
+        "enabled": true,
+        "@type": "plugin",
+        "name": "Sitemap plugin",
+        "introduction": "The Sitemap Protocol Component is a Hippo Site Toolkit component for generating an XML feed based on the Sitemap Protocol. This protocol is used by search engines for indexing your website. <p>Read more about the sitemap plugin at <a href=\"http://sitemap.forge.onehippo.org/\" target=\"_blank\">http://sitemap.forge.onehippo.org/</a></p>",
+        "packageFile": "/META-INF/sitemap_instructions.xml",
+        "pluginId": "sitemapPlugin",
+        "restClasses": [],
+        "type": "plugins",
+        "vendor": {
+            "@type": "vendor",
+            "name": "Hippo",
+            "url": "http://www.onehippo.com"
+        },
+        "libraries": [
+            {
+                "items": [
+
+                ]
+            }
+        ],
+        "dependencies": [
+            {
+                "@type": "dependency",
+                "groupId": "org.onehippo.forge.sitemap",
+                "artifactId": "sitemap-content",
+                "scope": "compile",
+                "type": "cms"
+            },
+            {
+                "@type": "dependency",
+                "groupId": "org.onehippo.forge.sitemap",
+                "artifactId": "sitemap-component",
+                "scope": "compile",
+                "type": "site"
+            },
+            {
+                "@type": "dependency",
+                "groupId": "org.onehippo.forge.sitemap",
+                "artifactId": "essentials",
+                "scope": "compile",
+                "type": "essentials",
+                "version": "1.01.00"
+            }
+        ],
+        "repositories": [
+            {
+                "@type": "repository",
+                "id": "mmilicevic-git-repository",
+                "name": null,
+                "layout": null,
+                "url": "https://github.com/machak/machak-mvn-repo/raw/master/releases",
+                "snapshots": {
+                    "@type": "snapshots",
+                    "enabled": true
+                },
+                "type": "project"
+            }
+        ]
+    }
+]}
