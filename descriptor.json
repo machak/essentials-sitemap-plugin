@@ -41,7 +41,7 @@
                 "artifactId": "essentials",
                 "scope": "compile",
                 "type": "essentials",
-                "version": "1.01.00-SNAPSHOT"
+                "version": "1.00.02"
             }
         ],
         "repositories": [
@@ -50,7 +50,7 @@
                 "id": "mmilicevic-git-repository",
                 "name": null,
                 "layout": null,
-                "url": "https://github.com/machak/machak-mvn-repo/raw/master/releases",
+                "url": "https://github.com/machak/machak-mvn-repo/mvn-repo",
                 "snapshots": {
                     "@type": "snapshots",
                     "enabled": true
