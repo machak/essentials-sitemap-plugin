@@ -41,7 +41,7 @@
                 "artifactId": "essentials",
                 "scope": "compile",
                 "type": "essentials",
-                "version": "1.01.00"
+                "version": "1.01.00-SNAPSHOT"
             }
         ],
         "repositories": [
