@@ -37,8 +37,8 @@
             },
             {
                 "@type": "dependency",
-                "groupId": "org.onehippo.forge.sitemap",
-                "artifactId": "essentials",
+                "groupId": "org.onehippo.cms7",
+                "artifactId": "hippo-essentials-sitemap-plugin",
                 "scope": "compile",
                 "type": "essentials",
                 "version": "1.00.02"
@@ -50,7 +50,7 @@
                 "id": "mmilicevic-git-repository",
                 "name": null,
                 "layout": null,
-                "url": "https://github.com/machak/machak-mvn-repo/mvn-repo",
+                "url": "https://raw.github.com/machak/machak-mvn-repo/mvn-repo",
                 "snapshots": {
                     "@type": "snapshots",
                     "enabled": true
