@@ -28,7 +28,7 @@
   <name>Hippo Essentials Sitemap plugin</name>
   <description>Hippo Essentials Sitemap plugin</description>
   <artifactId>hippo-essentials-sitemap-plugin</artifactId>
-  <version>1.00.02-SNAPSHOT</version>
+  <version>1.00.02</version>
   <scm>
     <connection>scm:git:git@github.com:machak/essentials-sitemap-plugin.git</connection>
     <url>scm:git:git@github.com:machak/essentials-sitemap-plugin.git</url>
@@ -46,7 +46,7 @@
   <packaging>jar</packaging>
   <properties>
     <github.global.server>github</github.global.server>
-    <hippo-essentials.version>1.01.03</hippo-essentials.version>
+    <hippo-essentials.version>1.01.04-SNAPSHOT</hippo-essentials.version>
     <junit.version>4.11</junit.version>
     <spring-test.version>3.2.6.RELEASE</spring-test.version>
   </properties>
@@ -196,6 +196,13 @@
 
 
   </build>
+  <repositories>
+    <repository>
+      <id>hippo</id>
+      <name>Hippo maven 2 repository.</name>
+      <url>http://maven.onehippo.com/maven2/</url>
+    </repository>
+  </repositories>
 
 
 </project>
