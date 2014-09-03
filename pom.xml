@@ -28,12 +28,12 @@
   <name>Hippo Essentials Sitemap plugin</name>
   <description>Hippo Essentials Sitemap plugin</description>
   <artifactId>hippo-essentials-sitemap-plugin</artifactId>
-  <version>1.00.03</version>
+  <version>1.00.04-SNAPSHOT</version>
   <scm>
     <connection>scm:git:git@github.com:machak/essentials-sitemap-plugin.git</connection>
     <url>scm:git:git@github.com:machak/essentials-sitemap-plugin.git</url>
     <developerConnection>scm:git:git@github.com:machak/essentials-sitemap-plugin.git</developerConnection>
-    <tag>hippo-essentials-sitemap-plugin-1.00.03</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
 
